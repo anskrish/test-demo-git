@@ -6,5 +6,11 @@ pipeline {
                 echo "Hello World!"
             }
         }
+     stage('test') {
+            steps {
+                echo 'Building...'
+                sh 'df -h'
+            }
+        }
     }
 }
