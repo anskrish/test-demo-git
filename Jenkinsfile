@@ -15,7 +15,7 @@ pipeline {
      stage('deploy') {
             steps {
                 echo 'Building...'
-                sh 'mkdir /tmp/test'
+                sh 'mkdir /tmp/test1'
             }
         }
     }
