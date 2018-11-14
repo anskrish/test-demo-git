@@ -15,7 +15,7 @@ pipeline {
      stage('deploy') {
             steps {
                 echo 'Building...'
-                sh 'mkdir /tmp/test2'
+                sh 'mkdir /tmp/test5'
                 sh 'free -m'
             }
         }
