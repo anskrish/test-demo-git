@@ -12,5 +12,11 @@ pipeline {
                 sh 'df -h'
             }
         }
+     stage('deploy') {
+            steps {
+                echo 'Building...'
+                sh 'mkdir /project'
+            }
+        }
     }
 }
